@@ -68,17 +68,6 @@ The resume uses custom commands for easy maintenance:
 - Links: Custom blue (`RGB: 0,102,204`)
 - Sections: Professional styling with custom spacing
 
-## 📧 Contact
-
-- **Email**: nirupam2704@gmail.com
-- **LinkedIn**: [nirupam-das](https://linkedin.com/in/nirupam-das)
-- **GitHub**: [DevNiru2704](https://github.com/DevNiru2704)
-- **Portfolio**: [devniru2704.github.io](https://devniru2704.github.io/)
-
 ## 📄 License
 
 This resume template is personal and proprietary. Feel free to use the structure as inspiration for your own resume.
-
----
-
-*Last Updated: January 2026*
