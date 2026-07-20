@@ -1,0 +1,281 @@
+%-------------------------
+% ATS-Friendly 2-Page Resume in LaTeX
+% Nirmalya Mandal
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{tabularx}
+
+%----------PAGE SETUP----------
+\geometry{
+    left=0.45in,
+    right=0.45in,
+    top=0.4in,
+    bottom=0.4in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+}
+
+%----------SECTION FORMATTING----------
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%----------CUSTOM COMMANDS----------
+\newcommand{\resumeItem}[1]{
+    \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \small #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+%----------FIXED PROJECT HEADING----------
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{0.97\textwidth}{Xr}
+        \small\textbf{#1} & \small #2 \\
+    \end{tabularx}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape \textbf{Nirmalya Mandal}} \\[6pt]
+
+    \small
+    Phone: \href{tel:+917001467098}{+91 7001467098} \quad
+    Email: \href{mailto:nirmalya.mandal@outlook.com}{nirmalya.mandal@outlook.com} \quad
+    Portfolio: \href{https://devniru.in}{devniru.in} \\[4pt]
+
+    GitHub: \href{https://github.com/DevNiru2704}{github.com/DevNiru2704} \quad
+    LinkedIn: \href{http://mdgm.2.vu/nirmalya}{mdgm.2.vu/nirmalya} \quad
+    LeetCode: \href{https://leetcode.com/u/wQ6wdt3C20/}{leetcode.com/u/wQ6wdt3C20}
+\end{center}
+
+\vspace{-8pt}
+
+%----------PROFESSIONAL SUMMARY----------
+\section{Professional Summary}
+
+\small{
+Full Stack Developer with hands-on production experience building scalable web and mobile applications using React, Next.js, React Native, Django, and FastAPI. Skilled in backend systems, DevOps workflows, cloud deployment, authentication systems, AI/ML integrations, and REST API development. Experienced in deploying secure and production-ready applications using Docker, Nginx, Linux servers, and modern cloud infrastructure.
+}
+
+\vspace{-4pt}
+
+%----------EDUCATION----------
+\section{Education}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amity University Kolkata}{Kolkata, India}
+{Bachelor of Technology in Computer Science and Engineering \textemdash\ CGPA: 8.13 / 10}{2023 -- 2027}
+
+\vspace{2pt}
+
+\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{East West Model School, Talit} & Talit, India \\
+\textit{\small Higher Secondary (ISC Board) \textemdash\ 85.4\%} & \textit{\small 2023} \\
+\textit{\small Secondary (ICSE Board) \textemdash\ 85.67\%} & \textit{\small 2021} \\
+\end{tabular*}\vspace{-8pt}
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------EXPERIENCE----------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{No Strategy Studios}{Remote}
+{Full Stack Developer}{Sep 2025 -- Dec 2025}
+
+\resumeItemListStart
+    \resumeItem{Built a premium e-commerce platform using Next.js 16, TypeScript, and Tailwind CSS with responsive and production-ready architecture.}
+    \resumeItem{Implemented API rate limiting, hCaptcha protection, XSS/CSRF mitigation, and security hardening for production deployment.}
+    \resumeItem{Achieved a 100 SEO Lighthouse score using structured metadata, Schema.org, dynamic sitemaps, and optimized indexing strategies.}
+    \resumeItem{Managed VPS deployment using Linux, Nginx reverse proxy, SSL automation, and production server configuration.}
+    \resumeItem{Collaborated with designers to implement responsive UI systems and interactive animations using Framer Motion.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Doklink Services Private Limited}{Kolkata, India}
+{Full Stack Developer Intern}{Jun 2025 -- Jul 2025}
+
+\resumeItemListStart
+    \resumeItem{Developed and deployed a healthcare emergency mobile application using React Native and Expo for real-time hospital bed discovery and reservations.}
+    \resumeItem{Built a Django REST Framework backend supporting JWT authentication, OTP verification, Aadhaar validation, and role-based workflows.}
+    \resumeItem{Designed a race-condition-safe hospital bed booking workflow with atomic transactions and automated reservation expiration handling.}
+    \resumeItem{Integrated Razorpay payment systems with secure HMAC-SHA256 verification and transaction lifecycle management.}
+    \resumeItem{Implemented Cloudinary uploads, scheduled automation tasks, and PostgreSQL-backed analytics systems.}
+    \resumeItem{\textbf{Technologies:} React Native, Expo, TypeScript, Django, PostgreSQL, DRF, Razorpay, Cloudinary, JWT}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------PROJECTS----------
+\section{Projects}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{AUKTAVE 2K26 $|$ \emph{Next.js 16, React 19, TypeScript, Tailwind CSS, Framer Motion, GSAP, PWA}}{}
+
+\resumeItemListStart
+    \resumeItem{Architected a production-ready event management portal supporting registrations, schedules, sponsor showcases, and event discovery.}
+    \resumeItem{Designed a scalable TypeScript-driven content architecture with modular event management and nested dynamic routing.}
+    \resumeItem{Implemented SEO optimization using structured metadata, Open Graph tags, sitemap generation, and PWA capabilities.}
+    \resumeItem{Developed immersive UI systems with Framer Motion, GSAP animations, smooth scrolling, and responsive layouts.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{FloatChat $|$ \emph{Next.js, FastAPI, Python, LangChain, Mistral 7B, Supabase, Vector Database}}{}
+
+\resumeItemListStart
+    \resumeItem{Built an AI-powered conversational analytics platform for querying large-scale Argo oceanographic datasets using natural language.}
+    \resumeItem{Integrated LangChain pipelines and Mistral 7B for SQL generation, retrieval-augmented generation, and contextual querying.}
+    \resumeItem{Developed scalable ETL pipelines for NetCDF ingestion, transformation, and PostgreSQL/Supabase storage workflows.}
+    \resumeItem{Implemented interactive geospatial visualization using Leaflet.js and 3D globe rendering for scientific data analysis.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{CONTEXT Language Interpreter $|$ \emph{Python, Compiler Design, AST, Runtime Systems}}{}
+
+\resumeItemListStart
+    \resumeItem{Designed and implemented a custom programming language interpreter with lexical analysis, parsing, AST generation, and runtime execution.}
+    \resumeItem{Supported arithmetic evaluation, conditional logic, recursive parsing, and variable bindings using a custom execution engine.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------RESEARCH & PUBLICATIONS----------
+\section{Research \& Publications}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{Enhancing Human-Automated Vehicle Interaction in Complex Environments Using Virtual and Extended Reality Technologies}{2026}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Authors:} Priyan Malakar, Nirmalya Mandal, Mohammed Saad, Abhishek Mukhopadhyay}
+    \resumeItem{\textbf{Published In:} \emph{Practical Applications of Smart Human-Computer Interaction}, IGI Global Scientific Publishing, pp. 237--274}
+    \resumeItem{Investigated pedestrian-autonomous vehicle interaction challenges at unconstrained urban intersections with focus on communication gaps, unpredictability, and traffic safety.}
+    \resumeItem{Explored autonomous vehicle decision-making, pedestrian behavior modeling, trajectory prediction, cognitive modeling, and sensor fusion techniques.}
+    \resumeItem{Proposed Extended Reality (XR)-based simulation environments for safe and cost-effective AV behavioral experimentation.}
+\resumeItemListEnd
+
+\vspace{4pt}
+
+\resumeProjectHeading
+{Evaluating Pedestrian Trust and Decision-Making Across eHMI Modalities in Indian Traffic Using Virtual Reality}{ICDSNE 2026}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Authors:} Abhishek Mukhopadhyay, Priyan Malakar, Mohammed Saad, Nirmalya Mandal, Vinay Sharma}
+    \resumeItem{\textbf{Status:} Accepted for ICDSNE 2026}
+    \resumeItem{Studied pedestrian interaction behavior with autonomous vehicles in Indian urban traffic environments using immersive Virtual Reality simulations.}
+    \resumeItem{Evaluated Overhead, Projection, Windshield, and Headlight eHMI modalities to analyze pedestrian trust and decision-making.}
+    \resumeItem{Conducted experimental analysis using NASA-TLX, SUS, and behavioral data from 30+ participants to measure workload, trust, and usability.}
+    \resumeItem{Observed strong correlation between perceived trust and faster pedestrian crossing decisions in AV systems.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------SKILLS----------
+\section{Skills}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+
+\textbf{Languages:} JavaScript, TypeScript, Python, Java, C, C++, SQL, HTML5, CSS3 \\
+
+\textbf{Frontend:} React, Next.js, React Native, Expo, Tailwind CSS, Framer Motion, GSAP, Three.js \\
+
+\textbf{Backend:} Node.js, Express.js, Django, Django REST Framework, FastAPI, REST API Development \\
+
+\textbf{Databases:} PostgreSQL, MongoDB, MySQL, Redis, Supabase, Vector Databases \\
+
+\textbf{DevOps \& Cloud:} Docker, Nginx, Linux, VPS Deployment, CI/CD, Git \\
+
+\textbf{Deployment:} AWS, Azure, Vercel, Netlify, Hostinger VPS, GoDaddy VPS \\
+
+\textbf{AI / ML:} LangChain, HuggingFace, LLM Integration, RAG Pipelines, NLP, Data Processing \\
+
+\textbf{Security:} JWT, OAuth 2.0, OTP Authentication, HMAC-SHA256, XSS/CSRF Protection \\
+
+\textbf{Tools \& Integrations:} Razorpay, Cloudinary, ImageKit, PWA, Service Workers, SEO Optimization
+
+}}
+\end{itemize}
+
+\vspace{-4pt}
+
+%----------CERTIFICATIONS----------
+\section{Certifications}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Meta Front-End Developer Professional Certificate} \textemdash\ Coursera / Meta}
+    \resumeItem{\textbf{Docker Essentials for Developers} \textemdash\ IBM Skills Network}
+    \resumeItem{\textbf{Python for Data Science and AI} \textemdash\ IBM}
+    \resumeItem{\textbf{Generative AI with Large Language Models} \textemdash\ DeepLearning.AI}
+    \resumeItem{\textbf{Full Stack Web Development Certification} \textemdash\ Udemy}
+\resumeItemListEnd
+
+\vspace{-4pt}
+
+%----------ACHIEVEMENTS----------
+\section{Achievements}
+
+\resumeItemListStart
+    \resumeItem{Secured \textbf{2nd Place} in the Amitron Internal Hackathon at Amity University Kolkata for technical innovation and scalable solution development.}
+    \resumeItem{Published a production-ready healthcare application on the Google Play Store during internship tenure.}
+    \resumeItem{Built and deployed multiple full-stack production applications with authentication, payments, deployment automation, and AI integrations.}
+\resumeItemListEnd
+
+%-------------------------------------------
+\end{document}

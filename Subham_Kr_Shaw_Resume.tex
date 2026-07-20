@@ -1,0 +1,141 @@
+\documentclass[10.5pt,a4paper]{article}
+
+% ================= PACKAGES =================
+\usepackage[margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+% ================= COLORS =================
+\definecolor{navy}{RGB}{31,56,100}
+\definecolor{darktext}{RGB}{34,34,34}
+\definecolor{graytext}{RGB}{85,85,85}
+
+% ================= SECTION FORMAT =================
+\titleformat{\section}
+  {\large\bfseries\color{navy}}
+  {}{0em}{}
+  [\vspace{-4pt}\color{navy}\titlerule\vspace{2pt}]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% ================= LIST FORMAT =================
+\setlist[itemize]{leftmargin=14pt, itemsep=2.5pt, topsep=3pt, parsep=0pt, label=\textcolor{navy}{\small\raisebox{0.5pt}{\textbullet}}}
+
+% ================= CUSTOM COMMANDS =================
+% Job / entry header: left = title, right = date
+\newcommand{\entry}[2]{%
+  \vspace{3pt}
+  \noindent
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{\color{darktext} #1} & \textit{\color{graytext}\small #2} \\
+  \end{tabularx}
+}
+
+\newcommand{\subentry}[1]{%
+  {\itshape\color{graytext}\small #1}\par\vspace{2pt}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+    {\fontsize{22}{24}\selectfont\bfseries\color{navy} SUBHAM KR SHAW}\\[4pt]
+    {\small\color{graytext} Full Stack Developer  $\cdot$ JavaScript $\cdot$ Data Structures \& Algorithms}\\[6pt]
+    {\small
+      +91\hspace{0pt}-\hspace{0pt}7439629885 \quad $\cdot$ \quad
+       hellosubham23\hspace{0pt}@\hspace{0pt}gmail\hspace{0pt}.\hspace{0pt}com \quad $\cdot$ \quad
+      linkedin\hspace{0pt}.\hspace{0pt}com\hspace{0pt}/\hspace{0pt}in\hspace{0pt}/\hspace{0pt}subham-shaw-2bab68284
+    }
+\end{center}
+\vspace{-2pt}
+
+% ================= PROFESSIONAL SUMMARY =================
+\section*{Professional Summary}
+\justifying
+Resourceful Full Stack Developer with hands-on experience designing and delivering scalable web applications. Proven ability to build end-to-end software solutions using modern JavaScript technologies. Recognized for solving 900+ LeetCode problems and developing scalable applications that enhance user experience and performance. Passionate about translating business requirements into robust technical solutions.
+
+% ================= QUALIFICATION =================
+\section*{Qualification}
+
+\entry{Amity University Kolkata}{Aug 2023 -- Jun 2027}
+\subentry{B.Tech in Computer Science \& Engineering $\cdot$ CGPA: 7.5 / 10.0}
+
+\entry{G.D. Goenka Public School}{Class XII --- 2023}
+\subentry{Science Stream $\cdot$ 80\%}
+
+\entry{Delhi Public School, North Kolkata}{Class X --- 2021}
+\subentry{86\%}
+
+% ================= EXPERIENCE =================
+\section*{Experience}
+
+\entry{Full Stack Developer Intern --- Modern Mahal}{May 2026 -- Present}
+\begin{itemize}
+    \item Developed full-stack features for a \textbf{Glass Automation Manufacturing System} using the MERN Stack.
+    \item Developed a workflow automation platform digitizing the end-to-end operations of a glass manufacturing business, from customer intake to production tracking.
+    \item Built secure RESTful APIs and implemented JWT-based Role-Based Authentication (RBAC) following the MVC architecture.
+    \item Collaborated in an Agile team using Git/GitHub, contributing to scalable backend and responsive frontend development.
+    \item Working with Node.js, Express.js, React.js, and PostgreSQL to deliver production-ready solutions.
+    \item Ongoing: Integrating OpenCV-based image detection and planning AI-powered automation using the company's manufacturing dataset.
+\end{itemize}
+
+\entry{Full Stack Developer Intern --- DAS Solution}{Jan 2026 -- Mar 2026}
+\begin{itemize}
+    \item Developed and tested RESTful APIs to ensure reliable backend workflows and seamless frontend integration.
+    \item Implemented core application features including Authentication \& Authorization, Product Display, Pagination and Add-to-Cart functionality.
+    \item Worked with React.js, Redux, Node.js, Express.js, JWT, Argon2, and JavaScript to build secure and scalable web applications.
+    \item Followed MVC architecture and SOLID principles to write clean, modular, and maintainable code.
+    \item Collaborated effectively with teammates using Git/GitHub, participating in feature development, debugging, and code reviews.
+\end{itemize}
+
+% ================= PROJECTS =================
+\section*{Projects}
+
+\entry{Lazarev --- Animated Blogging Website}
+\subentry{React.js  $\cdot$ Tailwind CSS}
+\begin{itemize}
+    \item Scroll-driven animated UI built with GSAP featuring smooth transitions, immersive micro-interactions, and performance-optimised animation sequences.
+    \item Fully responsive across mobile, tablet, and desktop with polished UI components improving user engagement.
+\end{itemize}
+
+\entry{Voice Recognition App}
+\subentry{JavaScript $\cdot$ Web Speech API $\cdot$ Web APIs}
+\begin{itemize}
+    \item Real-time speech-to-text \& text-to-speech using the browser's native Web Speech API with zero external dependencies.
+    \item Voice command-based interaction with dynamic transcript rendering and command parsing logic, improving accessibility.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section*{Technical Skills}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Languages:} & C, C++, JavaScript, SQL \\[2pt]
+\textbf{Frontend:} & React.js, Redux, Tailwind CSS, Material UI, HTML5 \\[2pt]
+\textbf{Backend:} & Node.js, Express.js, REST APIs, JWT Authentication, Bcrypt, MVC Architecture \\[2pt]
+\textbf{Database:} & MongoDB, Mongoose ODM \\[2pt]
+\textbf{Tools:} & Git, GitHub, Postman, VS Code, Vercel, Render \\[2pt]
+\textbf{Core Concepts:} & Data Structures \& Algorithms, OOP, Role-Based Access Control \\
+\end{tabularx}
+
+% ================= ACHIEVEMENTS =================
+\section*{Achievements}
+\begin{itemize}
+    \item Solved \textbf{935+} Data Structures \& Algorithms problems on LeetCode, including 587 Medium and 59 Hard problems.
+    \item Achieved a peak LeetCode Contest Rating of \textbf{1694} through competitive programming.
+    \item Participated in \textbf{22 rated} LeetCode contests, ranking among the Top 36.84\% of participants.
+\end{itemize}
+
+% ================= ADDITIONALS =================
+\section*{Additionals}
+\begin{itemize}
+    \item Strong in Agile, SDLC, and cross-team collaboration
+    \item Open to relocation and remote work
+    \item Languages: English, Hindi, Bengali
+\end{itemize}
+
+\end{document}

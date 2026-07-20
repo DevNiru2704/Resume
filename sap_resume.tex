@@ -1,0 +1,267 @@
+%-------------------------
+% ATS-Friendly 2-Page Resume in LaTeX
+% Nirmalya Mandal - SAP Full Stack Developer
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{tabularx}
+
+%----------PAGE SETUP----------
+\geometry{
+    left=0.45in,
+    right=0.45in,
+    top=0.4in,
+    bottom=0.4in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%----------SECTION FORMATTING----------
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%----------CUSTOM COMMANDS----------
+\newcommand{\resumeItem}[1]{
+    \item\small{#1\vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \small #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+%----------PROJECT HEADING----------
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{0.97\textwidth}{Xr}
+        \small\textbf{#1} & \small #2 \\
+    \end{tabularx}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape \textbf{Nirmalya Mandal}} \\[6pt]
+
+    \small
+    Phone: +91 7001467098 \quad
+    Email: nirmalya.mandal@outlook.com \quad
+    Address: Kolkata, India \\[4pt]
+
+    LinkedIn: linkedin.com/in/nirmalya-mandal-9b2475313 \quad
+    Website: devniru.in
+\end{center}
+
+\vspace{-8pt}
+
+%----------PROFESSIONAL SUMMARY----------
+\section{Professional Summary}
+
+\small{
+Full Stack Developer with production experience owning web and mobile applications end to end, from design and development to deployment and maintenance. Skilled in building scalable backend systems, REST APIs, secure authentication workflows, and responsive frontends. Experienced in shipping and operating production applications on Linux servers with Docker, Nginx, and CI/CD pipelines.
+}
+
+\vspace{-4pt}
+
+%----------EDUCATION----------
+\section{Education}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amity University Kolkata}{Kolkata, India}
+{Bachelor of Technology in Computer Science and Engineering - CGPA: 8.13 / 10}{2023 - 2027}
+
+\vspace{2pt}
+
+\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{East West Model School, Talit} & Talit, India \\
+\textit{\small Higher Secondary (ISC Board) - 85.4\%} & \textit{\small 2023} \\
+\textit{\small Secondary (ICSE Board) - 85.67\%} & \textit{\small 2021} \\
+\end{tabular*}\vspace{-8pt}
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------EXPERIENCE----------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Doklink Services Private Limited}{Kolkata, India}
+{Chief Technology Officer}{Jun 2025 - Present}
+
+\resumeItemListStart
+    \resumeItem{Own the complete development lifecycle of an emergency healthcare platform as the sole developer, covering mobile app, backend, and production infrastructure.}
+    \resumeItem{Built a real-time hospital bed discovery and booking system with race-condition-safe reservations, atomic transactions, and automated reservation expiration.}
+    \resumeItem{Implemented secure authentication workflows including JWT tokens, OTP verification, Aadhaar validation, and role-based access control.}
+    \resumeItem{Integrated payment processing with cryptographic verification and full transaction lifecycle management, and published the application on the Google Play Store.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Freelance - Vayita Grow}{Remote}
+{Full Stack Developer}{Jun 2026 - Jul 2026}
+
+\resumeItemListStart
+    \resumeItem{Designed and developed a corporate B2B website and internal management platform for an agricultural inputs manufacturing company.}
+    \resumeItem{Built product showcase, dealer and distributor inquiry workflows, and modules for client, order, statement, and field report management.}
+    \resumeItem{Delivered an investor-ready prototype demonstrating a professional brand identity and digitally managed business operations.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Modern Mahal}{Remote}
+{Full Stack Developer}{Jun 2026 - Jul 2026}
+
+\resumeItemListStart
+    \resumeItem{Developed a workflow automation platform digitizing the end-to-end operations of a glass manufacturing business, from customer intake to production tracking.}
+    \resumeItem{Built AI-assisted diagram processing that converts rough customer sketches received over WhatsApp into structured, fully editable production diagrams.}
+    \resumeItem{Implemented smart validation for geometry, dimension, and manufacturing feasibility checks, along with quotation generation and role-based access control.}
+\resumeItemListEnd
+
+\resumeSubheading
+{No Strategy Studios}{Remote}
+{Full Stack Developer}{Sep 2025 - Dec 2025}
+
+\resumeItemListStart
+    \resumeItem{Built a premium e-commerce platform for an international leather goods manufacturer with a responsive, production-ready architecture.}
+    \resumeItem{Implemented API rate limiting, captcha protection, XSS/CSRF mitigation, and security hardening for production deployment.}
+    \resumeItem{Achieved a 100 SEO Lighthouse score using structured metadata, dynamic sitemaps, and optimized indexing strategies.}
+    \resumeItem{Managed VPS deployment with a reverse proxy, SSL automation, and production server configuration on Linux.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------PROJECTS----------
+\section{Projects}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{AUKTAVE 2K26}{}
+
+\resumeItemListStart
+    \resumeItem{Architected a production-ready event management portal supporting registrations, schedules, sponsor showcases, and event discovery.}
+    \resumeItem{Designed a scalable content architecture with modular event management and nested dynamic routing.}
+    \resumeItem{Implemented SEO optimization with structured metadata, sitemap generation, and progressive web app capabilities.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{FloatChat}{Sep 2025 - Nov 2025}
+
+\resumeItemListStart
+    \resumeItem{Built an AI-powered conversational analytics platform for querying large-scale Argo oceanographic datasets using natural language.}
+    \resumeItem{Integrated LLM pipelines for SQL generation, retrieval-augmented generation, and contextual querying over scientific data.}
+    \resumeItem{Developed scalable ETL pipelines for dataset ingestion and interactive geospatial visualization with 2D maps and 3D globe rendering.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{CONTEXT Language Interpreter}{}
+
+\resumeItemListStart
+    \resumeItem{Designed and implemented a custom programming language interpreter with lexical analysis, parsing, AST generation, and runtime execution supporting arithmetic evaluation, conditional logic, and variable bindings.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------RESEARCH & PUBLICATIONS----------
+\section{Research \& Publications}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{Enhancing Human-Automated Vehicle Interaction in Complex Environments Using Virtual and Extended Reality Technologies}{2026}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Authors:} Priyan Malakar, Nirmalya Mandal, Mohammed Saad, Abhishek Mukhopadhyay}
+    \resumeItem{\textbf{Published In:} \emph{Practical Applications of Smart Human-Computer Interaction}, IGI Global Scientific Publishing, pp. 237-274}
+    \resumeItem{Investigated pedestrian-autonomous vehicle interaction challenges and proposed Extended Reality (XR)-based simulation environments for safe and cost-effective AV behavioral experimentation.}
+\resumeItemListEnd
+
+\vspace{4pt}
+
+\resumeProjectHeading
+{Evaluating Pedestrian Trust and Decision-Making Across eHMI Modalities in Indian Traffic Using Virtual Reality}{ICDSNE 2026}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Authors:} Abhishek Mukhopadhyay, Priyan Malakar, Mohammed Saad, Nirmalya Mandal, Vinay Sharma}
+    \resumeItem{\textbf{Status:} Accepted for ICDSNE 2026}
+    \resumeItem{Evaluated pedestrian trust and decision-making across four eHMI modalities in immersive Virtual Reality simulations using NASA-TLX, SUS, and behavioral data from 30+ participants.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------SKILLS----------
+\section{Skills}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+
+\textbf{Languages:} JavaScript, TypeScript, Python, Java, C, C++, SQL \\
+\textbf{Frontend:} React, Next.js, React Native, Tailwind CSS \\
+\textbf{Backend:} Node.js, Express.js, Django, Django REST Framework, FastAPI \\
+\textbf{Databases:} PostgreSQL, MongoDB, MySQL, Redis \\
+\textbf{DevOps:} Docker, Nginx, Linux, Git, CI/CD
+
+}}
+\end{itemize}
+
+\vspace{-4pt}
+
+%----------CERTIFICATIONS----------
+\section{Certifications}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Meta Front-End Developer Professional Certificate} - Coursera / Meta}
+    \resumeItem{\textbf{Docker Essentials for Developers} - IBM Skills Network}
+    \resumeItem{\textbf{Python for Data Science and AI} - IBM}
+    \resumeItem{\textbf{Generative AI with Large Language Models} - DeepLearning.AI}
+    \resumeItem{\textbf{Full Stack Web Development Certification} - Udemy}
+\resumeItemListEnd
+
+\vspace{-4pt}
+
+%----------ACHIEVEMENTS----------
+\section{Achievements}
+
+\resumeItemListStart
+    \resumeItem{Appointed \textbf{Chief Technology Officer} of a healthcare startup while pursuing undergraduate studies, independently leading all product development.}
+    \resumeItem{Secured \textbf{2nd Place} in the Amitron Internal Hackathon at Amity University Kolkata for technical innovation and scalable solution development.}
+    \resumeItem{Built and deployed multiple full-stack production applications with authentication, payments, deployment automation, and AI integrations.}
+\resumeItemListEnd
+
+%-------------------------------------------
+\end{document}
