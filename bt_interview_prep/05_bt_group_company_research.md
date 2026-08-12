@@ -2,7 +2,7 @@
 title: "BT Group - Company Research"
 subtitle: "What BT is, who runs it, what it is doing right now, and why you want to join"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 5 of 8"
+date: "Study pack - part 5 of 9"
 ---
 
 # Why this matters

@@ -2,7 +2,7 @@
 title: "HR Round, English Vocabulary, and the Final Checklist"
 subtitle: "Round 3 answers, the vocabulary component of Round 1, and what to read at 07:30"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 7 of 8"
+date: "Study pack - part 7 of 9"
 ---
 
 # Part A - The HR round

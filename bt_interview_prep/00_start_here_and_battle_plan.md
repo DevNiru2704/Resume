@@ -2,7 +2,7 @@
 title: "BT Group Interview - Start Here & Battle Plan"
 subtitle: "Nirmalya Mandal  |  Service Reliability Engineer  |  Interview: 13 August 2026, 09:00"
 author: "Built from the BT job description, your placement cell's question list, and your CV"
-date: "Study pack - part 0 of 8"
+date: "Study pack - part 0 of 9"
 ---
 
 # Read this page first. It takes four minutes.
@@ -34,6 +34,7 @@ Do them in this order. Do not jump ahead because something looks more interestin
 | 5 | **05 - BT Group research** | 30 min |
 | 6 | **06 - The role decoded** | 20 min |
 | 7 | **07 - HR answers, English vocabulary, final checklist** | 40 min |
+| 8 | **08 - Cloud & virtualisation** (insurance - your faculty's list has it, and BT sells cloud connectivity) | 30 min |
 
 If you run out of night, the order above is also the order of what matters. Documents 01 and 03 are the two you cannot skip.
 

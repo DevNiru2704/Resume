@@ -2,7 +2,7 @@
 title: "Networking Core Question Bank"
 subtitle: "All 80 questions from your placement cell, answered the way you should say them"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 1 of 8"
+date: "Study pack - part 1 of 9"
 ---
 
 # How to use this document

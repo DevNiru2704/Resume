@@ -2,7 +2,7 @@
 title: "Projects - Simplified Story and Deep-Dive Defence"
 subtitle: "What to say, what to hold back, and how to survive a schema-and-SQL ambush"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 3 of 8"
+date: "Study pack - part 3 of 9"
 ---
 
 # The lesson from SAP
