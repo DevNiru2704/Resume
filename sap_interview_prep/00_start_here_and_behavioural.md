@@ -2,12 +2,12 @@
 title: "SAP Labs Interview Prep - Start Here & Behavioural"
 subtitle: "Nirmalya Mandal  |  Interview: 22 July 2026"
 author: "Prepared from your resume, your projects, and the seniors' advice"
-date: "Study pack - part 0 of 8"
+date: "Study pack - part 0 of 10"
 ---
 
 # How to use this pack
 
-You have nine documents. Read them in this order, but come back to whichever one you feel weak on.
+You have eleven documents. Read them in this order, but come back to whichever one you feel weak on.
 
 0. **Start Here & Behavioural** (this file) - mindset, self-introduction, and the HR/behavioural answers.
 1. **SAP & STAR Program** - what the company is, and everything about the STAR program.
@@ -18,6 +18,8 @@ You have nine documents. Read them in this order, but come back to whichever one
 6. **CS Fundamentals - DBMS, OS, CN, CD** - the core-subject question bank.
 7. **SQL Practice Questions** - 30+ questions then answers, from basics to the classic interview queries.
 8. **Generative AI - Question Bank** - LLMs, RAG, prompting, and the SAP Joule bridge.
+9. **Managerial & HR Rounds** - the two non-technical rounds, questions with model answers.
+10. **Your Self-Introduction** - human, natural intro scripts made for you.
 
 **One rule above all the others:** everything written here is a *script to understand and then say in your own words*. Do not memorise these paragraphs and recite them. Your trainer said it plainly - the interviewer must not feel that you learned it from ChatGPT. So read a section, close the PDF, and say the idea out loud in your own English. If you can explain it to a friend, you own it. If you can only repeat it, you do not.
 
@@ -46,7 +48,7 @@ Your soft-skills trainer and the placed seniors gave a lot of advice in the grou
 
 Before any answer, know the story you are selling. Everything you say should reinforce this:
 
-> *A final-year CS student who does not just study software - I build and run real production applications end to end, including one that is live on the Play Store, and I am hungry to learn how large-scale enterprise systems are built.*
+> *A final-year CS student who does not just study software - I build and run real production applications end to end, including a healthcare app I own from the mobile app to the server it runs on, and I am hungry to learn how large-scale enterprise systems are built.*
 
 That is your theme. Builder, shipper, fast learner. Every project and every answer should quietly point back to it.
 
@@ -58,7 +60,7 @@ The technical round intro should be about **your work and your technical backgro
 
 "Good morning. I'm Nirmalya Mandal, a final-year Computer Science student at Amity University Kolkata. I'm a full-stack developer, which means I build both the front end and the back end of applications, and I also handle deploying and running them on servers.
 
-Most of my learning has come from building real products rather than just coursework. The one I'm proudest of is DokLink, an emergency healthcare app for finding and booking hospital beds in real time - I built the mobile app, the backend, and the infrastructure, and it's now published on the Google Play Store. Alongside that I've built e-commerce platforms, an AI system that answers questions about ocean data in plain English, and a few other production apps.
+Most of my learning has come from building real products rather than just coursework. The one I'm proudest of is DokLink, an emergency healthcare app for finding and booking hospital beds in real time - I built the mobile app, the backend, and the infrastructure, and we're now in the final stages before its public launch. Alongside that I've built e-commerce platforms, an AI system that answers questions about ocean data in plain English, and a few other production apps.
 
 On the technical side I'm most comfortable with JavaScript and TypeScript for development, Python for backend and AI work, and C++ for data structures. I've worked a lot with React, Next.js, React Native, Django, and PostgreSQL, and I've deployed on Linux servers with Docker and Nginx.
 
@@ -120,7 +122,7 @@ This is the single most important behavioural question. They will ask it, possib
 
 **Strengths** - pick two, back each with proof:
 
-"My biggest strength is ownership - I don't wait to be told every step. At DokLink I'm the only developer, so I've had to take a product from an idea all the way to a live app on the Play Store, including the parts most people avoid like servers and deployment. My second strength is that I learn fast by building - most of my stack I taught myself because a project needed it."
+"My biggest strength is ownership - I don't wait to be told every step. At DokLink I'm the only developer, so I've had to take a product from an idea all the way to a finished app that's about to launch, including the parts most people avoid like servers and deployment. My second strength is that I learn fast by building - most of my stack I taught myself because a project needed it."
 
 **Weakness** - real, with what you are doing about it:
 
@@ -165,7 +167,7 @@ You can also do what a senior suggested: turn it into a moment to share a learni
 Right before you walk in, remind yourself:
 
 1. Say **S-A-P**, never "sap."
-2. Lead with **building and shipping**. Your hook is DokLink, live on the Play Store.
+2. Lead with **building and shipping**. Your hook is DokLink, an emergency healthcare app you built and run end to end.
 3. **Basics + learning attitude** beat trying to sound like an expert.
 4. **Never claim what you can't defend.** If unsure, say so honestly.
 5. When coding, **talk through the logic** as you write.

@@ -1,0 +1,247 @@
+%-------------------------
+% Resume in LaTeX
+% Nirmalya Mandal - BT Group, Service Reliability Engineer
+% PHOTO version (photo top-left, name and contact to the right)
+% No hyperref / no clickable links.
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+%----------PAGE SETUP----------
+\geometry{
+    left=0.45in,
+    right=0.45in,
+    top=0.4in,
+    bottom=0.4in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%----------SECTION FORMATTING----------
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%----------CUSTOM COMMANDS----------
+\newcommand{\resumeItem}[1]{
+    \item\small{#1\vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \small #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+%----------PROJECT HEADING----------
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{0.97\textwidth}{Xr}
+        \small\textbf{#1} & \small #2 \\
+    \end{tabularx}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\noindent
+\begin{minipage}[c]{0.17\textwidth}
+    \includegraphics[height=1.15in]{profile_photo.png}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.80\textwidth}
+    {\Huge \scshape \textbf{Nirmalya Mandal}} \\[7pt]
+
+    \small
+    Phone: +91 7001467098 \quad
+    Email: nirmalya.mandal@outlook.com \\[3pt]
+    Address: Kolkata, West Bengal, India \\[3pt]
+    LinkedIn: linkedin.com/in/nirmalya-mandal-9b2475313 \quad
+    Website: devniru.in
+\end{minipage}
+
+\vspace{6pt}
+
+%----------SUMMARY----------
+\section{Summary}
+
+\small{
+Computer Science undergraduate who builds web and mobile applications and enjoys the part that comes after the code is written - putting an application on a Linux server and keeping it running. Comfortable with Nginx as a reverse proxy, DNS records, HTTPS certificates, ports and firewall rules, and reading logs to work out why a request failed. Keen to learn networking and service operations properly in a structured team, and used to explaining technical problems in simple language to people who are not developers.
+}
+
+\vspace{-4pt}
+
+%----------SKILLS----------
+\section{Skills}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+
+\textbf{Networking \& Systems:} TCP/IP, HTTP/HTTPS, DNS, SSH, SSL/TLS, WebSockets, Nginx (reverse proxy), Linux, Docker, ports and firewall basics \\
+\textbf{Programming Languages:} JavaScript, TypeScript, Python, C++, SQL \\
+\textbf{Web \& Mobile:} React, Next.js, Node.js, Express.js, Django, React Native \\
+\textbf{Databases:} PostgreSQL, MongoDB, Redis \\
+\textbf{Tools:} Git, Linux command line, Postman
+
+}}
+\end{itemize}
+
+\vspace{-4pt}
+
+%----------EDUCATION----------
+\section{Education}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amity University Kolkata}{Kolkata, India}
+{Bachelor of Technology in Computer Science and Engineering - CGPA: 8.01 / 10}{2023 - 2027}
+
+\vspace{2pt}
+
+\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{East West Model School, Talit} & Talit, India \\
+\textit{\small Higher Secondary (ISC Board) - 85.4\%} & \textit{\small 2023} \\
+\textit{\small Secondary (ICSE Board) - 85.67\%} & \textit{\small 2021} \\
+\end{tabular*}\vspace{-8pt}
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------EXPERIENCE----------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Modern Mahal}{Remote}
+{Full Stack Developer}{Jun 2026 - Jul 2026}
+
+\resumeItemListStart
+    \resumeItem{Built an internal web tool for a glass business to record customer orders and follow them through production.}
+    \resumeItem{Added login with separate access levels for staff and admin, and a page that generates price quotations.}
+    \resumeItem{Put the application on a Linux server, set up Nginx as a reverse proxy, added the DNS records for the domain and enabled HTTPS.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Doklink Services Private Limited}{Kolkata, India}
+{Full Stack Developer Intern}{Jun 2025 - Aug 2025}
+
+\resumeItemListStart
+    \resumeItem{Worked on a mobile app that shows nearby hospitals and how many beds are currently free.}
+    \resumeItem{Helped build the backend REST APIs for login, hospital listing and bed booking, using Django and PostgreSQL.}
+    \resumeItem{Learned how a live application is run day to day - Docker containers, Nginx in front, and checking server logs when a request failed.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------PROJECTS----------
+\section{Projects}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{ChatterBox - Real-Time Chat Application}{2026}
+
+\resumeItemListStart
+    \resumeItem{A small chat app where two users can send messages to each other and see them appear instantly, without refreshing the page.}
+    \resumeItem{Used WebSockets over TCP so the connection between the browser and the server stays open, instead of the browser asking for new messages again and again.}
+    \resumeItem{Stored users, chats and messages in PostgreSQL, and showed whether the other person is currently online.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{FloatChat - Ocean Data Question Answering}{Sep 2025 - Nov 2025}
+
+\resumeItemListStart
+    \resumeItem{A web app where you type a question about ocean sensor readings in plain English and get back a table and a map.}
+    \resumeItem{The question is converted into an SQL query, run against a PostgreSQL database, and the result is drawn as a chart.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{AUKTAVE 2K26 - College Fest Website}{2026}
+
+\resumeItemListStart
+    \resumeItem{Website for the university tech fest with event pages, schedules and a registration form, built with Next.js.}
+    \resumeItem{Deployed it and kept it online through the fest, when most of the traffic arrived in a few short bursts.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------RESEARCH & PUBLICATIONS----------
+\section{Research \& Publications}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{Enhancing Human-Automated Vehicle Interaction in Complex Environments Using Virtual and Extended Reality Technologies}{2026}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Authors:} Priyan Malakar, Nirmalya Mandal, Mohammed Saad, Abhishek Mukhopadhyay}
+    \resumeItem{\textbf{Published In:} \emph{Practical Applications of Smart Human-Computer Interaction}, IGI Global Scientific Publishing, pp. 237-274}
+\resumeItemListEnd
+
+\vspace{4pt}
+
+\resumeProjectHeading
+{Evaluating Pedestrian Trust and Decision-Making Across eHMI Modalities in Indian Traffic Using Virtual Reality}{ICDSNE 2026}
+
+\resumeItemListStart
+    \resumeItem{\textbf{Authors:} Abhishek Mukhopadhyay, Priyan Malakar, Mohammed Saad, Nirmalya Mandal, Vinay Sharma}
+    \resumeItem{\textbf{Status:} Accepted for ICDSNE 2026}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+
+%----------CERTIFICATIONS----------
+\section{Certifications}
+
+\resumeItemListStart
+    \resumeItem{\textbf{The Web Developer Bootcamp} - Udemy (Colt Steele)}
+    \resumeItem{\textbf{Complete Data Science, Machine Learning, Deep Learning \& NLP Bootcamp} - Udemy (Krish Naik)}
+\resumeItemListEnd
+
+\vspace{-4pt}
+
+%----------ACHIEVEMENTS----------
+\section{Achievements}
+
+\resumeItemListStart
+    \resumeItem{Secured \textbf{2nd Place} in the Amitron Internal Hackathon at Amity University Kolkata.}
+    \resumeItem{Built and deployed several web and mobile applications on Linux servers, including domain and DNS setup, HTTPS certificates, and everyday troubleshooting.}
+    \resumeItem{Often the person classmates come to for help setting up their environments and fixing deployment problems, which has made me comfortable explaining technical things simply.}
+\resumeItemListEnd
+
+%-------------------------------------------
+\end{document}

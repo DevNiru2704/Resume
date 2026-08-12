@@ -2,7 +2,7 @@
 title: "SQL Practice Questions"
 subtitle: "Questions first, then answers - try before you peek"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 7 of 8"
+date: "Study pack - part 7 of 10"
 ---
 
 # How to use this

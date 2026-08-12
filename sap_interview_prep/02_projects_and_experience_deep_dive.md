@@ -2,7 +2,7 @@
 title: "Projects & Experience - Deep Dive"
 subtitle: "Every project explained end to end, with the technology choices"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 2 of 8"
+date: "Study pack - part 2 of 10"
 ---
 
 # How to use this document
@@ -22,7 +22,7 @@ A note on honesty: describe trade-offs as real engineering decisions. "I chose X
 
 # DokLink - your flagship (talk about this first)
 
-**Your role:** Chief Technology Officer and sole developer. **Status:** live on the Google Play Store. This is the project to lead with - it is real, it is yours end to end, and it is on an app store.
+**Your role:** Chief Technology Officer and sole developer. **Status:** built end to end and in the final stages before its public launch; the landing page is already live. This is the project to lead with - it is real, and it is yours from the app to the server.
 
 ## In plain words
 
@@ -89,7 +89,34 @@ DokLink is an **emergency healthcare app** that helps someone in a medical emerg
 - **"Why React Native over Flutter?"** -> Skill reuse from React web, faster solo development, huge ecosystem; Flutter's Dart was a learning cost I did not need. (See above.)
 - **"What is a JWT and why use it?"** -> Signed token carrying identity; stateless auth; server verifies the signature instead of storing sessions.
 - **"What does HMAC-SHA256 verification protect against?"** -> A forged payment-success message. Only Razorpay and I share the secret, so only a genuine confirmation produces a valid signature.
-- **"You're CTO as a student - what does that really mean you did?"** -> Be honest and grounded: sole developer and technical owner of a real startup's product, from design to a live Play Store app and the server it runs on. Ownership, not a title for show.
+- **"You're CTO as a student - what does that really mean you did?"** -> Be honest and grounded (full playbook in the next section): sole developer and technical owner of a real startup's product, from design to a finished app about to launch and the server it runs on. Ownership, not a title for show.
+
+## Handling the CTO question honestly
+
+Your title is going to draw questions, and possibly a little skepticism - "CTO as a final-year student?" This is not a trap to fear; it's an opening, as long as you handle it with **honesty and humility, never inflation.** The interviewer is testing whether the title is real substance or a resume decoration. Show them it's substance, and downplay the grandeur of the word itself.
+
+**The core framing to internalise:** DokLink is an **early-stage startup**, and CTO there means you are the **person responsible for the entire technical side** - not that you run a large engineering department. On the tech side, it is you. The title describes your **responsibility and ownership**, not headcount. Own that plainly and you disarm any skepticism.
+
+**Say something like this if they probe the title:**
+
+"I want to be honest about what that means, because CTO sounds bigger than it is. DokLink is an early-stage startup, and I'm the founding and sole developer - so I own every technical decision and I build all of it myself, from the mobile app to the backend to the server. The title reflects that I'm responsible for the whole product technically, not that I manage a big team. Honestly, I'd rather you judge me on what I actually built than on the title."
+
+That answer wins because it is **disarmingly honest** - you name the gap yourself before they can, which is exactly the credibility the seniors said matters.
+
+**Anticipate these specific probes:**
+
+- **"Isn't that title too big for a student?"** -> Agree gracefully, then redirect to substance: "It does sound big - what it really means is I'm the only technical person, so I carry the whole product. I'm happy to walk you through the hardest thing I built." Then go to the race condition.
+- **"How big is your team? Who reports to you?"** -> Be honest and specific: "It's a small early-stage team. On engineering, it's just me right now, which is why I've had to learn the entire stack, including deployment and servers." Never invent a team.
+- **"Are you a co-founder / do you have equity?"** -> Answer with whatever is actually true, briefly and calmly. Do not embellish. If it's a role rather than a founding stake, say so.
+- **"What was your hardest decision as the technical owner?"** -> This is a gift. Use a real one: the race condition fix, choosing a Django monolith over microservices, or React Native over Flutter - and explain the trade-off you weighed. That proves you make and own decisions.
+- **"How do you handle being CTO while studying?"** -> Ownership + prioritisation; see the "balancing work and college" answer in part 0.
+
+**The two rules for this whole topic:**
+
+1. **Never inflate.** Don't imply a big team, don't overstate the company's stage, don't claim the app is doing things it isn't (this is exactly why the Play Store wording was corrected - a claim you can't back is a landmine). If they catch one exaggeration, they doubt everything.
+2. **Let the work carry the title.** The moment the conversation moves from "CTO" to "here's the race condition I solved and why," you've won - because now they're evaluating real engineering, which is your strength. Steer there fast.
+
+**One more honest note on status:** if asked whether the app is live, tell the truth - it's fully built and in the final stages before its public launch, with the landing page already up. "Built and about to launch" is genuinely impressive for a student and completely defensible. "Already published" was not yet true, so you don't say it.
 
 ---
 
@@ -346,7 +373,7 @@ Keep it humble and clear: "I'm a co-author on two papers about how pedestrians i
 
 If you want a single mental picture to walk in with:
 
-- **DokLink** - I build and run real production systems end to end (mobile + backend + servers), including the hard parts like race conditions and payments. Live on the Play Store.
+- **DokLink** - I build and run real production systems end to end (mobile + backend + servers), including the hard parts like race conditions and payments. Built end to end and about to launch.
 - **FloatChat** - I build generative-AI workflows (natural language to real data), the same pattern as SAP's Joule.
 - **A Fashions** - I secure and deploy public production sites and I run my own Linux servers.
 - **Glass Automation** - I apply AI to messy real business problems with good engineering judgement (human in the loop).

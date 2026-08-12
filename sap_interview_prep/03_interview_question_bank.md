@@ -2,7 +2,7 @@
 title: "Interview Question Bank"
 subtitle: "Likely questions by round, with model answers"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 3 of 8"
+date: "Study pack - part 3 of 10"
 ---
 
 # How to use this
@@ -22,11 +22,11 @@ The questions marked **[ASKED]** were reported by the placed seniors as question
 
 ## Questions the seniors were actually asked [ASKED]
 
-**Introduce yourself (technical version).** -> See part 0. Lead with what you build, name DokLink (live on Play Store), list your real stack, end on wanting to learn enterprise engineering.
+**Introduce yourself (technical version).** -> See part 0. Lead with what you build, name DokLink (an emergency healthcare app you built end to end, launching soon), list your real stack, end on wanting to learn enterprise engineering.
 
 **Tell me something that is not on your resume.** -> Have one genuine, human thing ready (part 0). Do not turn it into another technical brag.
 
-**Explain your project.** -> Lead with DokLink. Give the 30-second overview (emergency app, find and book hospital beds in real time, I built app + backend + servers, it's on the Play Store), then stop and let them pick what to dig into. Have the race-condition story ready.
+**Explain your project.** -> Lead with DokLink. Give the 30-second overview (emergency app, find and book hospital beds in real time, I built app + backend + servers, and it's about to launch), then stop and let them pick what to dig into. Have the race-condition story ready.
 
 **What are hashmaps?** -> A hashmap stores **key-value pairs** and lets you look up a value by its key in **O(1) average time**. It works by running the key through a **hash function** that decides where to store it. In C++ it's `unordered_map`; in JavaScript it's a plain object or `Map`. I use them whenever I need fast lookups by a unique key - like caching or counting. (Code and collision handling in part 4.)
 

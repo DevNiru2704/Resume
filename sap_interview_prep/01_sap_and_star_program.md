@@ -2,7 +2,7 @@
 title: "SAP & the STAR Program"
 subtitle: "Everything to know about the company and the program"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 1 of 8"
+date: "Study pack - part 1 of 10"
 ---
 
 # First: how to say the name

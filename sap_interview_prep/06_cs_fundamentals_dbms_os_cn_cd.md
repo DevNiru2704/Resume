@@ -2,7 +2,7 @@
 title: "CS Fundamentals - DBMS, OS, CN, CD"
 subtitle: "The core-subject question bank"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 6 of 8"
+date: "Study pack - part 6 of 10"
 ---
 
 # How to use this

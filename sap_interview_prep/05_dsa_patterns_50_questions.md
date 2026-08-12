@@ -2,7 +2,7 @@
 title: "DSA - 50 Questions by Pattern"
 subtitle: "Brute force and optimised, with time and space complexity"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 5 of 8"
+date: "Study pack - part 5 of 10"
 ---
 
 # How to use this

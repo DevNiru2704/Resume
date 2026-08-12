@@ -2,7 +2,7 @@
 title: "Generative AI - Question Bank"
 subtitle: "LLMs, RAG, prompting, and how it maps to your work and SAP"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 8 of 8"
+date: "Study pack - part 8 of 10"
 ---
 
 # How to use this

@@ -2,7 +2,7 @@
 title: "DSA & CS Fundamentals"
 subtitle: "Pen-and-paper C++ code and core theory, basics only"
 author: "Nirmalya Mandal - SAP Labs Interview Prep"
-date: "Study pack - part 4 of 8"
+date: "Study pack - part 4 of 10"
 ---
 
 # How to use this

@@ -1,0 +1,20 @@
+% Shared preamble for the SAP interview prep PDFs (pandoc + xelatex)
+
+% Wrap long lines inside code blocks so nothing runs off the page.
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,commandchars=\\\{\}}
+
+% Keep verbatim / inline code from overflowing either.
+\fvset{breaklines=true,breakanywhere=true}
+
+% A little breathing room and nicer section headings.
+\usepackage{sectsty}
+\sectionfont{\clearpage\Large}
+\subsectionfont{\large}
+
+% Tighter, readable lists.
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=3pt,parsep=0pt}
+
+% Callout-style horizontal rules under the title block already handled by pandoc.
+\usepackage{needspace}
