@@ -2,7 +2,7 @@
 title: "BT Group Interview - Start Here & Battle Plan"
 subtitle: "Nirmalya Mandal  |  Service Reliability Engineer  |  Interview: 13 August 2026, 09:00"
 author: "Built from the BT job description, your placement cell's question list, and your CV"
-date: "Study pack - part 0 of 9"
+date: "Study pack - part 0 of 10"
 ---
 
 # Read this page first. It takes four minutes.
@@ -11,15 +11,25 @@ You have one night. This pack is written so you can study it in priority order a
 
 **What this interview actually is.** The job title says "Service Reliability Engineer", but read the job description again - it is **first-line network service assurance**. You will be watching enterprise networks, picking up alarms and tickets from a queue, doing the first diagnosis, fixing what you can and escalating what you cannot. That is why the job description is 80% networking and 20% "can you talk to people calmly".
 
-**The three rounds, from your placement cell:**
+# Where you actually are - updated
 
-| Round | What they test |
-|---|---|
-| 1 | Networking - software *and* hardware - plus English vocabulary |
-| 2 | Networking again, plus the projects on your CV |
-| 3 | HR / general |
+**You have already cleared the online assessment.** That was Round 1, and it is done. Tomorrow is everything that follows it:
 
-Read that table twice. **Networking appears in two of the three rounds.** Not DSA. Not system design. Not React. Networking.
+| Stage | What it is | What it tests |
+|---|---|---|
+| **Pre-placement talk** | BT presents the company and the role | Nothing - but **listen hard**, they hand you interview material |
+| **Interaction round** (possibly a **GD**) | Group discussion or a structured conversation | Communication, listening, whether you are pleasant to work with |
+| **Technical round** | One-on-one | Networking, and your CV projects |
+| **HR round** | One-on-one | Fit, motivation, honesty |
+
+**What this changes about tonight:**
+
+1. **The English vocabulary test is behind you.** It was part of the OA. What replaces it is **spoken** English, in a GD and in three conversations - which is a bigger deal, and is now covered in document 09.
+2. **A GD may come before the technical round.** If it is an elimination GD, it does not matter how well you know OSPF - you have to survive the discussion first. **Read document 09 before you sleep.**
+3. **Networking is still the core of the technical round**, so documents 01 and 02 remain the biggest block of your night. Nothing about that changes.
+4. **Two rounds are now non-technical** (interaction/GD and HR), so documents 07 and 09 matter more than they did.
+
+The original framing from your placement cell - networking, then networking plus projects, then HR - still describes the technical and HR rounds accurately. The GD and the pre-placement talk are additions in front of them, not replacements.
 
 # The order to study in tonight
 
@@ -28,15 +38,16 @@ Do them in this order. Do not jump ahead because something looks more interestin
 | Priority | Document | Time |
 |---|---|---|
 | 1 | **01 - Networking Core Q-Bank** (all 80 questions your faculty sent) | 3 hours |
-| 2 | **02 - Networking JD Deep Dive** (the harder things in the JD - subnetting, STP, OSPF, BGP, HSRP, MPLS) | 2 hours |
-| 3 | **03 - Projects: Simplified + Deep-Dive Defence** | 1.5 hours |
-| 4 | **04 - ChatterBox spec** (your chat project - know it cold, it is on your CV) | 1 hour |
-| 5 | **05 - BT Group research** | 30 min |
-| 6 | **06 - The role decoded** | 20 min |
-| 7 | **07 - HR answers, English vocabulary, final checklist** | 40 min |
-| 8 | **08 - Cloud & virtualisation** (insurance - your faculty's list has it, and BT sells cloud connectivity) | 30 min |
+| 2 | **09 - Group discussion & the interaction round** - **do this early, it may be the first elimination** | 40 min |
+| 3 | **02 - Networking JD Deep Dive** (subnetting, STP, OSPF, BGP, HSRP, MPLS) | 2 hours |
+| 4 | **03 - Projects: Simplified + Deep-Dive Defence** | 1.5 hours |
+| 5 | **05 - BT Group research** - **moved up**, the pre-placement talk and the GD both reward it | 30 min |
+| 6 | **04 - ChatterBox spec** (your chat project - know it cold, it is on your CV) | 1 hour |
+| 7 | **06 - The role decoded** | 20 min |
+| 8 | **07 - HR answers and final checklist** | 40 min |
+| 9 | **08 - Cloud & virtualisation** (insurance - BT sells cloud connectivity) | 30 min |
 
-If you run out of night, the order above is also the order of what matters. Documents 01 and 03 are the two you cannot skip.
+If you run out of night, the order above is also the order of what matters. **01, 09 and 03 are the three you cannot skip** - one per stage that can eliminate you.
 
 **Sleep.** Two hours of sleep beats two more hours of revision at 6am. You cannot listen carefully to a question while your brain is fogged, and this role is explicitly scored on listening.
 
@@ -110,9 +121,13 @@ It is **BT** or **BT Group** - two letters, "B-T". In the UK it grew out of **Br
 | Time | Do |
 |---|---|
 | Now - 3 hrs | Document 01, all 80 questions. Read the answer, then close the file and say it out loud. |
+| +40 min | **Document 09 - the GD and interaction round.** Do this before you get tired, not after. |
 | +2 hrs | Document 02. Subnetting worked examples on paper - actually write them. |
 | +1.5 hrs | Document 03. Write out one API route with its payload on paper. Draw one schema from memory. |
+| +30 min | Document 05, BT research. Two facts you can say confidently, and your questions to ask. |
 | +1 hr | Document 04, ChatterBox. Know its schema and its WebSocket flow. |
-| +1 hr | Documents 05, 06, 07. |
+| +1 hr | Documents 06, 07, and 08 if there is time. |
 | Then | **Sleep.** Set two alarms. |
-| 07:30 | Re-read document 01's quick-fire table and document 07's checklist. Nothing else. |
+| 07:30 | Document 01's quick-fire table, document 09's GD rules, document 07's checklist. Nothing new. |
+
+**During the pre-placement talk tomorrow, take notes.** Whatever they emphasise - a technology, a way of working, a value - is what the interviewers care about, and repeating it back later in the day is free credibility. It is also where your best "any questions for us?" question will come from.

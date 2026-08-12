@@ -2,7 +2,7 @@
 title: "Projects - Simplified Story and Deep-Dive Defence"
 subtitle: "What to say, what to hold back, and how to survive a schema-and-SQL ambush"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 3 of 9"
+date: "Study pack - part 3 of 10"
 ---
 
 # The lesson from SAP
@@ -13,7 +13,7 @@ At SAP they did not ask about your projects in the abstract. They:
 2. Asked you to **draw the main tables of the project.**
 3. Then asked **SQL questions based on the schema you had just drawn.**
 
-That is a deep-dive ambush, and it will happen again - at BT, or at the next company. Round 2 here is explicitly "networking + projects from CVs".
+That is a deep-dive ambush, and it will happen again - at BT, or at the next company. The technical round here is explicitly "networking + projects from CVs".
 
 **The defence is not to know more. It is to have already decided, in advance, exactly which route, which schema, and which tables you will produce.** Then the ambush lands on ground you chose.
 

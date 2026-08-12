@@ -1,13 +1,13 @@
 ---
-title: "HR Round, English Vocabulary, and the Final Checklist"
-subtitle: "Round 3 answers, the vocabulary component of Round 1, and what to read at 07:30"
+title: "HR Round, English, and the Final Checklist"
+subtitle: "HR round answers, the words to know, and what to read at 07:30"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 7 of 9"
+date: "Study pack - part 7 of 10"
 ---
 
 # Part A - The HR round
 
-Round 3 is HR/general. Your faculty listed questions 78, 79 and 80 - why BT, why should we hire you, strengths and weaknesses. Here are those and the others that always come.
+The HR round is the **last** stage tomorrow, after the pre-placement talk, the interaction/GD round and the technical round. Your faculty listed questions 78, 79 and 80 - why BT, why should we hire you, strengths and weaknesses. Here are those and the others that always come.
 
 **The register rule again:** no "ownership", no "I led", no "I'm an expert". Your CV says intern. Be the person that CV describes - capable, curious, easy to teach, easy to work with.
 
@@ -88,7 +88,11 @@ Always yes. The list is in document 05. Ask two.
 
 # Part B - The English vocabulary component
 
-Round 1 includes English vocabulary. Campus rounds usually test this as **synonyms, antonyms, commonly confused words, and sentence correction**, plus how clearly you actually speak. Twenty minutes here is well spent.
+**The written vocabulary test was in the online assessment, which you have already cleared** - so this section is now lower priority than it was. Keep it for two reasons: a panel occasionally throws in a quick word question, and using precise words well is part of how spoken fluency is judged.
+
+**The spoken side matters far more now** - two of tomorrow's stages are conversations and one may be a group discussion. That is covered in **document 09**, which is the one to read if you are short of time.
+
+Ten minutes here, not thirty.
 
 ## Words that appear constantly in these tests
 
@@ -164,6 +168,7 @@ The vocabulary test is a proxy. The real question is whether a UK customer on a 
 ## Tonight, before you sleep
 
 - [ ] Document 01 read, and the quick-fire table said out loud
+- [ ] **Document 09 read - the GD rules decided in advance**
 - [ ] Subnetting: three examples worked **on paper**
 - [ ] OSI seven layers, in order, without looking
 - [ ] The port table
@@ -178,12 +183,13 @@ The vocabulary test is a proxy. The real question is whether a UK customer on a 
 Read only these three things. Nothing new.
 
 1. The quick-fire table at the end of document 01.
-2. The 10-minute revision list at the end of document 02.
-3. This checklist.
+2. The one-page GD reminder at the end of document 09.
+3. The 10-minute revision list at the end of document 02.
+4. This checklist.
 
 ## The 60 seconds before you walk in
 
-1. **Networking is two of the three rounds.** That is where your attention goes.
+1. **Order of the day:** pre-placement talk, then the interaction/GD round, then technical, then HR. **The GD comes before you get to show any networking** - see document 09.
 2. **Short answers, then stop.** Two or three sentences. Let them ask.
 3. **Listen to the whole question.** It is a listed requirement for the job.
 4. **"I don't know" is a valid answer** - followed by what you do know and how you would find out. Bluffing is the only losing move.

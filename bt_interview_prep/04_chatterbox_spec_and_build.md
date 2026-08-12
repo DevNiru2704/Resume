@@ -2,12 +2,12 @@
 title: "ChatterBox - Full Spec and Build"
 subtitle: "The chat project on your CV: how it works, and how to actually build it tonight"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 4 of 9"
+date: "Study pack - part 4 of 10"
 ---
 
 # Why this project is on your CV
 
-Round 2 is "networking + projects from your CV". Every other project on your CV pulls the conversation toward web development. **This one pulls it toward TCP, ports, handshakes and connections** - which is the ground you want, because that is also what rounds 1 and 2 are testing.
+The technical round is "networking + projects from your CV". Every other project on your CV pulls the conversation toward web development. **This one pulls it toward TCP, ports, handshakes and connections** - which is the ground you want, because that is also what rounds 1 and 2 are testing.
 
 It is also small and honest: a personal project, roughly 400-500 lines, that does one thing.
 

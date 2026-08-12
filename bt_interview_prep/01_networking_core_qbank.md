@@ -2,12 +2,12 @@
 title: "Networking Core Question Bank"
 subtitle: "All 80 questions from your placement cell, answered the way you should say them"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 1 of 9"
+date: "Study pack - part 1 of 10"
 ---
 
 # How to use this document
 
-These are the exact 80 questions your faculty sent. Round 1 is this document. Round 2 starts with this document and then moves to your projects.
+These are the exact 80 questions your faculty sent. **The technical round is this document**, and it then moves on to your CV projects. You have already cleared the online assessment; this is the round the OA was filtering for.
 
 Each answer is written **the length you should actually speak it** - two or three sentences. Not an essay. Say the short answer, then stop and let them ask more.
 

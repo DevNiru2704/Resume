@@ -2,7 +2,7 @@
 title: "The Role, Decoded"
 subtitle: "What a Service Reliability Engineer at BT actually does, line by line from the JD"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 6 of 9"
+date: "Study pack - part 6 of 10"
 ---
 
 # Read the title carefully

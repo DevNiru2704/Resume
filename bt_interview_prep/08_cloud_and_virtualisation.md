@@ -2,7 +2,7 @@
 title: "Cloud and Virtualisation"
 subtitle: "The cloud questions BT can ask, weighted the way BT actually uses cloud"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 8 of 9"
+date: "Study pack - part 8 of 10"
 ---
 
 # Why this document exists - the evidence

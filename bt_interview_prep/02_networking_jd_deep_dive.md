@@ -2,7 +2,7 @@
 title: "Networking Deep Dive - The Job Description Topics"
 subtitle: "Subnetting, switching, routing, redundancy, WAN and the Cisco gap"
 author: "Nirmalya Mandal - BT Group Interview Prep"
-date: "Study pack - part 2 of 9"
+date: "Study pack - part 2 of 10"
 ---
 
 # Why this document exists
